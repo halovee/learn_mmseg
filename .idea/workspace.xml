@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee23a36-19b0-4046-a2aa-f78fc468e649" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmcv/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmcv/utils/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmengine/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmengine/config/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmseg/configs/_base_/datasets/chase_db1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmseg/configs/_base_/default_runtime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmseg/configs/_base_/models/deeplabv3_unet_s5-d16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmseg/configs/_base_/schedules/schedule_40k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmmseg/configs/unet/unet_s5-d16_deeplabv3_4xb4-40k_chase-db1-128x128.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/dataset_converters/chase_db1.py" afterDir="false" />
+    <list default="true" id="3ee23a36-19b0-4046-a2aa-f78fc468e649" name="更改" comment="增加了unet的模型">
+      <change afterPath="$PROJECT_DIR$/.idea/learn_mmseg.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmmcv/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmmcv/utils/config.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +25,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "halovee"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/halovee/learn_mmseg.git",
+    "accountId": "5f2c1c91-eb49-4ac5-8269-97d27e7bb297"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2024.1/remote_sources/-777000617/-1217357762/ast.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2024.1/remote_sources/-777000617/-1217357762/codecs.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2024.1/remote_sources/-777000617/-679571294/mmengine/config/config.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -48,15 +53,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python 测试.Doctest DictAction._parse_iterable.executor": "Run",
-    "Python.train.executor": "Run",
+    "Python.train.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/myenvs/learn_mmseg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -147,12 +154,26 @@
       <workItem from="1714300304612" duration="1457000" />
       <workItem from="1714373910597" duration="68000" />
       <workItem from="1714374292478" duration="2168000" />
-      <workItem from="1714385884584" duration="17615000" />
+      <workItem from="1714385884584" duration="23519000" />
+      <workItem from="1714996417439" duration="1291000" />
     </task>
+    <task id="LOCAL-00001" summary="增加了unet的模型">
+      <option name="closed" value="true" />
+      <created>1714978744280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714978744280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加了unet的模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了unet的模型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -164,19 +185,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tools/train.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="3" />
+          <line>60</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tools/train.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="4" />
+          <line>56</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/learn_mmseg$train.coverage" NAME="train 覆盖结果" MODIFIED="1714976396146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/learn_mmseg$train.coverage" NAME="train 覆盖结果" MODIFIED="1714997239801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/learn_mmseg$main.coverage" NAME="main 覆盖结果" MODIFIED="1714300376262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_mmseg$Doctest_DictAction__parse_iterable.coverage" NAME="Doctest DictAction._parse_iterable 覆盖结果" MODIFIED="1714973127458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mmmengine/config" />
   </component>
